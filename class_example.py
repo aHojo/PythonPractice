@@ -12,7 +12,6 @@ class Car(Vehicle):
 
 
 class Truck(Vehicle):
-
     number_of_wheels = 6
 
     def __init__(self, make, model, fuel="diesel"):
@@ -33,5 +32,4 @@ print(
 print(f"Is my daily driver a car? {isinstance(daily_driver, Car)}")
 print(f"Is my truck a Vehicle? {isinstance(truck, Vehicle)}")
 print(f"Is my truck a Car? {isinstance(truck, Car)}")
-
 print(f"Is a Truck a subclass of Vehicle? {issubclass(Truck, Vehicle)}")

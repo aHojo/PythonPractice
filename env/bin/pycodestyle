@@ -1,5 +1,4 @@
-#!/home/hojo/projects/pyworkshop/env/bin/python
-
+#!/Users/amh5366/Documents/Programming/Python/PythonPractice/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
